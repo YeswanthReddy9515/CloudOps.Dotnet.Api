@@ -1,0 +1,6 @@
+@CloudOps.dotnet.Api_HostAddress = http://localhost:5055
+
+GET {{CloudOps.dotnet.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
