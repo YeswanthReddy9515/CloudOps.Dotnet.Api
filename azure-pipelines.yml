@@ -29,6 +29,7 @@ stages:
             command: 'test'
             projects: '**/*Tests/*.csproj'
             arguments: '--configuration $(buildConfiguration) --logger trx'
+            publishTestResults: true
         - task: DotNetCoreCLI@2
           inputs:
             command: 'publish'
